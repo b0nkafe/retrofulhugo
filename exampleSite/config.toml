@@ -1,0 +1,30 @@
+baseurl = "http://yoursite.tld"
+languageCode = "en-us"
+title = "Retroful Hugo"
+theme = "retrofulhugo"
+pygmentsUseClasses = true
+#googleAnalytics = "XXX"
+#disqusShortname = "XXX"
+
+[Params]
+  subtitle = ""
+  logo = "img/srm.png"
+  favicon = "img/favicon.ico"
+  commit = false
+
+[Author]
+	handle = "your nickname"
+  name = "your name"
+  email = "your email"
+  github = "your github account"
+  twitter = "your twitter handle"
+
+[[menu.main]]
+    name = "Menu Item"
+    url = "http://google.com"
+    weight = 1
+
+#[[menu.main]]
+#    name = "About"
+#    url = "/page/about/"
+#    weight = 2 

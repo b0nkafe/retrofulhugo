@@ -1,12 +1,4 @@
 /* --- General --- */
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,800');
-
-@font-face{ 
-	font-family: 'frisan';
-	src: url('FiraSansCondensed-Hair.woff') format('woff');
-	/* src: url('DPComic.woff') format('woff'); */
-}
-
 body {
   font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
 	font-size: 16px;

@@ -1,0 +1,18 @@
+name = "Retroful Hugo"
+license = "MIT"
+licenselink = "https://github.com/5armale/retrofulhugo/blob/master/LICENSE"
+description = "A slight retro wannabe modification of Beautiful Hugo"
+tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive", "retro", "neon"]
+features = ["blog", "themes", "disqus", "minimal", "responsive", "retro", "neon"]
+min_version = 0.15
+
+[author]
+    name = "srm"
+    homepage = "http://srm.re"
+		repo = "https://github.com/5armale/retrofulhugo"
+
+# Original theme
+[original]
+    name = "halogenica"
+    homepage = "http://halogenica.net"
+		repo = "https://github.com/halogenica/beautifulhugo"

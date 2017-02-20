@@ -1,7 +1,7 @@
 name = "Retroful Hugo"
 license = "MIT"
 licenselink = "https://github.com/5armale/retrofulhugo/blob/master/LICENSE"
-description = "A slight retro wannabe modification of Beautiful Hugo"
+description = "A retro wannabe modification of Beautiful Hugo"
 tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive", "retro", "neon"]
 features = ["blog", "themes", "disqus", "minimal", "responsive", "retro", "neon"]
 min_version = 0.15

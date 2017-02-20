@@ -2,7 +2,7 @@
 body {
   font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
 	font-size: 16px;
-  color: #ccc;
+  color: #999;
   position: relative;
   background: #151515;
 }
@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 	text-shadow: 0 0 1px #00ebeb, 0 -1px 1px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.5), 0 0 3px #00ebeb, 0 0 3px rgba(209, 0, 177, 0.8);
+	color: #ccc;
 }
 
 a {
@@ -586,7 +587,6 @@ table {
 	border-collapse:collapse;
   margin-left: auto;
   margin-right: auto;
-  color:#778087;
 }
 
 table td,table th {
@@ -611,11 +611,11 @@ table tbody tr:nth-child(odd){
 }
 
 table tbody tr:nth-child(even){
-	background: #1a1a1a;
+	background: #101010;
 }
 
 table tbody tr {
-        font-size: 70%;
+	font-size: 80%;
 }
 
 
@@ -630,4 +630,5 @@ small {
 	text-align: center;
 	font-style: italic;
 	font-size: 70%;
+	padding-top: 5px;
 }

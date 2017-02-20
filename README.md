@@ -55,7 +55,7 @@ See at [xor-gate/xor-gate.org](https://github.com/xor-gate/xor-gate.org) an exam
   
 ## About
 
-This is a retro version of `Beautiful Hugo`, a port of the Jekyll theme [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) by [Dean Attali](http://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
+This is a retro version of [Beautiful Hugo](https://github.com/halogenica/beautifulhugo), a port of the Jekyll theme [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) by [Dean Attali](http://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
 
 ## License
 

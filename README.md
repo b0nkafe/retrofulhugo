@@ -18,7 +18,7 @@ This theme is designed to look great on both large-screen and small-screen (mobi
 
 ### Syntax highlighting
 
-This theme has support for both server side and client side highlighting.
+This theme has support server side highlighting.
 
 #### Server side syntax highlighting
 

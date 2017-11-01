@@ -40,6 +40,10 @@ blockquote, p blockquote {
   font-style: italic;
 }
 
+blockquote p:first-child {
+  margin-top: 0;
+}
+
 blockquote {
   color: #808080;
   font-style: italic;

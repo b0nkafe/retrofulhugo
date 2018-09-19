@@ -16,6 +16,10 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
 
+  {{ range .Site.Params.custom_stylesheets }}
+  <link rel="stylesheet" href="{{ . | absURL }}" />
+  {{ end }}
+
   <!-- Facebook OpenGraph tags -->
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:type" content="website" />

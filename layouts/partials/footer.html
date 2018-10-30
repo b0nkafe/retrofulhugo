@@ -83,6 +83,16 @@
             </a>
           </li>
           {{ end }}
+          {{ if .Site.Author.bitbucket }}
+          <li>
+            <a href="https://bitbucket.org/{{ .Site.Author.bitbucket }}" title="Bitbucket">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
 
     		  <li>
       			<a href="{{ .Site.BaseURL}}index.xml" title="RSS">
@@ -91,12 +101,12 @@
         				<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
       			  </span>
       			</a>
-    		  </li>		
+    		  </li>
 
         </ul>
         <p class="credits copyright text-muted">
     	  <a href="{{ .Site.BaseURL }}">{{ .Site.Author.handle }}</a> {{ .Site.LastChange.Format "2006" }} | <a href="http://gohugo.io">Hugo</a> fueled
-    		  
+
     	  {{ if .Site.Title }}
     	  {{ end }}
   	    </p>
